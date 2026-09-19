@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #4e0755;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .parent{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 400px;
+            background: #f7f9f9;
+            border-radius: 10px;
+        }
+        .container{
+            
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .child6 input{
+            width: 300px;
+            padding: 3px;
+            border-radius: 6px;
+            border: 1px solid #8f8f92;
+            margin-bottom: 10px;
+        }
+        .child6{
+            margin-bottom: 15px;
+        }
+        .iteme1{
+            display: flex;
+            margin-bottom: 15px;
+            margin-top: 5px;
+        }
+        #massege{
+            width: 300px;
+            height: 50px;
+        }
+        button{
+            width: 300px;
+            margin-bottom: 20px;
+            margin-top: 10px;
+            border-radius: 20px;
+            border: 0;
+            background:#0000ff ;
+            color: white;
+            padding: 5px;
+            transition: 1s;
+            padding: 10px;
+        }
+        button:hover{
+            background:#53b4b7;
+            box-shadow: 2 5px 10px gray;
+        }
+        .iteme1 div:nth-child(3) {
+            margin-left: 40px;
+        }
+        .iteme1 div:nth-child(2){
+            margin-left: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child">
+            <h2>Registration Form </h2>
+            <h4>Please fill up the form to register</h4>
+        </div>
+       <form action="" class="container">
+         
+        <div class="child6">
+           <div class="item">
+             <label for="name">👤Full Name:</label><br>
+             <input type="name" placeholder="Enter your Full Name">
+           </div>
+           <div class="item">
+            <label for="email">📧Email Address </label><br>
+            <input type="email" placeholder="Enter your email                                                 📧">
+           </div>
+           <div class="item">
+            <label for="phone" >📞Phone Number</label><br>
+            <input type="phone" placeholder="Enter your phone number">
+           </div>
+        </div>
+        <div class="child">
+            <div class="iteme">
+                <label for="gender">⚧Gender</label>
+            </div>
+            <div class="iteme1">
+                <div>
+                    <input type="radio" name="gender" id="female"><label for="male">Male</label>
+                </div>
+                <div>
+                    <input type="radio" name="gender" id="mele"><label for="female">Female</label>
+                </div>
+
+            </div>
+            <div class="iteme">
+                <label for="checkbox">Skill (Select all that apply ) </label><br>
+               <div class="iteme1">
+                 <div>
+                    <input type="checkbox" name="html" id="html">
+                    <label for="html">HTML</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="css" id="css">
+                    <label for="css">CSS</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="javascript" id="javascript">
+                    <label for="javascript">JavaScript</label>
+                </div>
+               </div>
+            </div>
+        </div>
+        <div class="child">
+            <label for="country">Country</label><br>
+            <select name="country" id="country">
+                <option class="item">Banladesh</option>
+                <option class="item">India</option>
+                <option class="item">Pakisthan</option>
+                <option class="item">Afganisthan</option>
+                <option class="item">Fallesthin</option>
+            </select>
+        </div><br>
+        <div class="child">
+            <label for="massage">Massage</label><br>
+            <textarea name="massge" id="massege" >Write your message here...</textarea>
+        </div>
+       </form>
+        <button>Submit</button>
+    </div>
+</body>
+</html>
