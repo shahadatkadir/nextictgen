@@ -17,7 +17,7 @@ const teachersData = [
     subject: "Mathematics",
     designation: "Senior Mathematics Instructor",
     bio: "Dedicated mathematics educator helping students develop strong analytical and problem-solving skills.",
-    image: "/images/teachers/teacher-02.jpg",
+    image: "nusrat.jpg",
     experience: "10+ Years",
     specialization: "Higher Mathematics",
   },
