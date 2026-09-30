@@ -57,12 +57,12 @@ function Navbar({ activePage, onNavigate }) {
           className="group flex shrink-0 items-center gap-2"
           aria-label="Next ICT Gen - Home"
         >
-          <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-blue-600 text-sm font-extrabold text-white shadow-sm transition-colors duration-200 group-hover:bg-blue-700">
+          <span className="flex animate-bounce h-9 w-9 items-center justify-center rounded-xl bg-blue-600 text-sm font-extrabold text-white shadow-sm transition-colors duration-200 group-hover:bg-blue-700">
             N
           </span>
 
           <span className="text-lg font-extrabold tracking-tight text-slate-50 sm:text-xl">
-            Next <span className="text-white"><span className="text-2xl text-blue-700 font-serif">ICT</span> Gen</span>
+            Next <span className="text-white"><span className="text-2xl text-blue-700 font-serif ">ICT</span> Gen</span>
           </span>
         </button>
 

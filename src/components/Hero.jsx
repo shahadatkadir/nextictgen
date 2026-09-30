@@ -26,7 +26,7 @@ return ( <section
       {/* Hero Content */}
       <div className="max-w-2xl">
         {/* Badge */}
-        <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-blue-100 bg-blue-50 px-4 py-2 text-sm font-semibold text-purple-700">
+        <div className="mb-6 inline-flex animate-pulse items-center gap-2 rounded-full border border-blue-100 bg-blue-50 px-4 py-2 text-sm font-semibold text-purple-700">
           <span aria-hidden="true">🚀</span>
           <span>Learn ICT. Build Your Future.</span>
         </div>

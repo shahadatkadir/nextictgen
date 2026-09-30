@@ -10,7 +10,7 @@ const coursesData = [
     oldPrice: 4000,
     duration: "6 Months",
     lessons: 80,
-    image: "/images/courses/course-01.jpg",
+    image: "sscict.png",
     popular: true,
   },
 
@@ -24,7 +24,7 @@ const coursesData = [
     oldPrice: 5000,
     duration: "8 Months",
     lessons: 100,
-    image: "/images/courses/course-02.jpg",
+    image: "hscict.png",
     popular: true,
   },
 
@@ -38,7 +38,7 @@ const coursesData = [
     oldPrice: 4500,
     duration: "7 Months",
     lessons: 90,
-    image: "/images/courses/course-03.jpg",
+    image: "sscmath.jpeg",
     popular: false,
   },
 

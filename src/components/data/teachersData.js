@@ -24,11 +24,11 @@ const teachersData = [
 
   {
     id: "teacher-03",
-    name: "Tanvir Ahmed",
+    name: "Rekcy Ahmed",
     subject: "Physics",
     designation: "Subject Specialist",
     bio: "Passionate physics educator specializing in concept-based learning and exam-focused problem solving.",
-    image: "/images/teachers/teacher-03.jpg",
+    image: "rekcy.jpeg",
     experience: "7+ Years",
     specialization: "Physics & Numerical Problems",
   },
